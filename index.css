@@ -1,0 +1,222 @@
+@font-face {
+    font-family: She Always Walks Alone Demo;
+    src: url(fonts/She Always Walks Alone Demo.ttf);
+}
+@font-face {
+    font-family: BriLliant;
+    src: url(fonts/BriLliant.ttf);
+}
+@font-face {
+    font-family: ubuntu;
+    src: url(fonts/ubuntu.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: ubuntu;
+    margin: 0;
+    padding: 0;
+}
+
+#Ban {
+    background-color: deepskyblue;
+    background-image: url('Pictures/sn2Logo.png');
+    background-size: 50vw 40vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 60vh;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 0px 0px 0.05vw white;
+}
+
+#Logo {
+    float: left;
+    margin-right: 1vw;
+    border-radius: 50%;
+    box-shadow: 0 0 1vh black;
+}
+
+.Hlogo {
+    margin-top: 2vh;
+}
+
+#text {
+    color: gray;
+    text-shadow: 0 0 1px;
+    margin-top: 0vw;
+    font-size: 1.2vw;
+}
+
+#title {
+    font-family: Agency FB;
+    color: deepskyblue;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+#title #surname {
+    color: rgb(246, 142, 86);
+    font-family: BriLliant;
+    font-size: 2.5vw;
+}
+
+#summary {
+    width: 100vw;
+    height: 5vh;
+    text-align: center;
+    background-image: url('Pictures/summary.png');
+    background-size: 50vw 30vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: 5vh;
+}
+
+#summaryLink {
+    margin-right: 2vw;
+    margin-left: 2vw;
+    font-family: BriLliant;
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    transition-duration: 0.3;
+}
+
+#summaryLink:hover {
+    color: rgb(246, 142, 86);
+    transition-duration: 0.2s;
+}
+
+#littleTitle {
+    font-family: BriLliant;
+    font-size: 3vw;
+    color: white;
+    margin-bottom: 0;
+    background-image: url("Pictures/Ban.png");
+    background-repeat: no-repeat;
+    background-size: 16vw 6.5vh;
+}
+
+#Studies {
+    height: 27vw;
+}
+
+#Games {
+    height: 57vw;
+}
+
+#Youtube {
+    height: 27vw;
+}
+
+#Prog {
+    height: 27vw;
+}
+
+#Presentation {
+    height: 15vw;
+}
+
+#fb {
+    transition-duration: 0.2s;
+}
+
+#fb:hover {
+    box-shadow: 0 0 5px black;
+    transition-duration: 0.1s;
+}
+
+#Corps {
+    margin-left: 15vw;
+    margin-right: 1vw;
+}
+.vignette {
+    padding-top: 0.5vw;
+    padding-left: 1vw;
+    border-left: 0.2vw deepskyblue solid;
+    border-radius: 20px;
+    box-shadow: 0 0 10px deepskyblue;
+}
+
+#fixedSummary {
+    position: fixed;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px deepskyblue;
+    top: 26vh;
+    left: 0.7vw;
+    min-height: 50vh;
+    width: 13.6vw;
+    max-width: 13.3vw;
+}
+
+.fixedSummaryLink {
+    position: relative;
+    color: white;
+    font-family: BriLliant;
+    font-size: 3vw;
+    font-weight: bold;
+    line-height: 12vh;
+    background-color: rgb(200, 200, 255);
+    min-width: 13.6vw;
+    transition-duration: 0.2s;
+    background-size: 0 0;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.fixedSummaryLink:hover {
+    text-shadow: 0 0 3px deepskyblue;
+    transition-duration: 0.1s;
+    background-size: 5vw 10vh;    
+}
+
+.fixedSummaryLink:active {
+    color: deepskyblue;
+    background-size: 9vw 18vh;    
+}
+
+.Head {
+    padding-right: 2.65vw;
+    background-image: url(Pictures/up.png);
+}
+
+.Studies {
+    padding-right: 7.3vw;
+    background-image: url(Pictures/book.png);
+}
+
+.Games {
+    padding-right: 9.3vw;
+    background-image: url(Pictures/pad.png);
+}
+
+.Prog {
+    padding-right: 0.5vw;
+    background-image: url(Pictures/prog.png);
+}
+
+.Youtube {
+    padding-right: 6.3vw;
+    background-image: url(Pictures/yt.png);
+}
+
+#Copyright {
+    text-align: right;
+    front-family: Ubuntu;
+    color: darkgray;
+    text-shadow: 0 0 0.1vw darkgray;
+    box-shadow: 0 0 0.7vw deepskyblue;
+    width: 50vw;
+    padding: 0.5vw;
+    margin-left: 46.8vw;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
